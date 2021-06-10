@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CoreSymbolication",
+        "repositoryURL": "https://github.com/stacksift/CoreSymbolication",
+        "state": {
+          "branch": null,
+          "revision": "1db5b911b8944b4dbc424245e3c9b58af6fd1d0e",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

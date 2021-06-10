@@ -24,11 +24,11 @@ public class Symbolicator {
         return owners
     }
 
-//    public var architecture: Architecture {
-//        let arch = CSSymbolicatorGetArchitecture(self.internalSymbolicator)
-//
-//        return Architecture(arch: arch)
-//    }
+    public var architecture: Architecture {
+        let arch = CSSymbolicatorGetArchitecture(self.internalSymbolicator)
+
+        return Architecture(arch: arch)
+    }
 }
 
 extension Symbolicator {

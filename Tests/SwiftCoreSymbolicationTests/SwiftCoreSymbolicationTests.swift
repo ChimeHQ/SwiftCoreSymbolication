@@ -14,6 +14,9 @@ final class CoreSymbolicationTests: XCTestCase {
 
         XCTAssertEqual(owners.count, 1)
 
-        XCTAssertEqual(owners[0].uuid, UUID(uuidString: "62450421-5420-3AF0-87CA-010FC8D6CEBA"))
+        let owner = owners[0]
+
+        XCTAssertEqual(owner.uuid, UUID(uuidString: "62450421-5420-3AF0-87CA-010FC8D6CEBA"))
+        XCTAssertEqual(owner.architecture.familyName, "arm64")
     }
 }

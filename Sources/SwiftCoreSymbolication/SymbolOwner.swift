@@ -26,11 +26,11 @@ public class SymbolOwner {
        return UUID(uuidString: stringRep)
    }
 
-//    public var architecture: Architecture {
-//        let arch = CSSymbolOwnerGetArchitecture(self.ownerRef)
-//
-//        return Architecture(arch: arch)
-//    }
+    public var architecture: Architecture {
+        let arch = CSSymbolOwnerGetArchitecture(self.ownerRef)
+
+        return Architecture(arch: arch)
+    }
 
    public var baseAddress: UInt64 {
        return UInt64(CSSymbolOwnerGetBaseAddress(self.ownerRef))

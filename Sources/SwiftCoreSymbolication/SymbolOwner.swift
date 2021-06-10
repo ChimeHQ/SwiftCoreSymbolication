@@ -44,14 +44,14 @@ public class SymbolOwner {
        return URL(fileURLWithPath: path)
    }
 
-//    public func enumerateSymbols(_ block: (Symbol) -> Void) {
-//        withoutActuallyEscaping(block) { (block) in
-//            CSSymbolOwnerForeachSymbol(ownerRef) { (symbolRef) in
-//                let symbol = Symbol(symbolRef: symbolRef)
-//
-//                block(symbol)
-//            }
-//        }
-//    }
+    public func enumerateSymbols(_ block: (Symbol) -> Void) {
+        withoutActuallyEscaping(block) { (block) in
+            CSSymbolOwnerForeachSymbol(ownerRef) { (symbolRef) in
+                let symbol = Symbol(symbolRef: symbolRef)
+
+                block(symbol)
+            }
+        }
+    }
 }
 

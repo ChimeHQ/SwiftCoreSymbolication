@@ -16,7 +16,7 @@ dependencies: [
 ]
 ```
 
-SPM seems to be unable to make use of a modulemap link directive. This means that you need to add some special linker flags to any executable target that uses the CoreSymbolication library, which this has as a dependency.
+SPM seems to be unable to make use of a modulemap link directive. This means that you need to add some special linker flags to any executable target that uses the [CoreSymbolication](https://github.com/stacksift/CoreSymbolication) library, which this has as a dependency.
 
 ```swift
 linkerSettings: [

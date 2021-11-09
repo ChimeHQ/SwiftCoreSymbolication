@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "CoreSymbolication",
-        "repositoryURL": "https://github.com/stacksift/CoreSymbolication",
+        "repositoryURL": "https://github.com/ChimeHQ/CoreSymbolication",
         "state": {
           "branch": null,
           "revision": "1db5b911b8944b4dbc424245e3c9b58af6fd1d0e",

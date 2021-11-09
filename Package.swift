@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "SwiftCoreSymbolication", targets: ["SwiftCoreSymbolication"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/stacksift/CoreSymbolication", from: "0.1.0"),
+        .package(url: "https://github.com/ChimeHQ/CoreSymbolication", from: "0.1.0"),
     ],
     targets: [
         .target(

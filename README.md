@@ -1,12 +1,12 @@
-[![Build Status][build status badge]][build status]
 [![License][license badge]][license]
-[![Platforms][platforms badge]][platforms]
 
 # SwiftCoreSymbolication
 
 A Swift wrapper around the CoreSymbolication private framework on macOS.
 
 CoreSymbolication provides a very powerful system for looking up and extracting symbolic information from mach-o executables, dyld shared caches, and dSYMs.
+
+Moved this all into the [CoreSymbolication](https://github.com/ChimeHQ/CoreSymbolication) package. Check that out instead!
 
 ## Integration
 
